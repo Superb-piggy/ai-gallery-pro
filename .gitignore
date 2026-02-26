@@ -1,0 +1,17 @@
+# 忽略所有 Python 缓存文件
+__pycache__/
+*.pyc
+
+# 忽略你的 API 密钥配置！(极其重要)
+config.py
+.env
+
+# 忽略本地大模型文件
+Qwen3-0.6B/
+
+# 忽略数据库文件和生成的图片
+*.db
+outputs/
+
+#忽略图片
+*.jpg
